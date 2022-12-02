@@ -1,1 +1,1 @@
-# Equipo_Preposici-n
+# Equipo_Preposicion
