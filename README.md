@@ -11,8 +11,19 @@ Nuestra misión es desarrollar soluciones utilizando algoritmos de IA y Machine 
 
 # Descripción del proyecto API LAB ML
 API LAB ML es la plataforma que elegimos para vizualzar las soluciones que ofrecemos a nuestros clientes.
-Utilizamos el Framework de FastApi [Tiangolo's FastAPI](https://fastapi.tiangolo.com/), el cual conecta los algoritmos de ML que desarrollamos, en este caso nuestro algoritmo detecta mensaje de odio en los comentarios de los videos en Youtube.
+Utilizamos el Framework de [Tiangolo's FastAPI](https://fastapi.tiangolo.com/), el cual conecta los algoritmos de ML que desarrollamos.
 
 # Estado del proyecto
 :construction: Proyecto en construcción :construction:
+Siempre intentamos innovar y mejorar nuestros algoritmos !
+
+## :hammer:Funcionalidades del proyecto
+
+- `Funcionalidad 1`:nuestro algoritmo detecta mensaje de odio en los comentarios de los videos en Youtube 
+- `Funcionalidad 2`:detecta cualquier mensaje de odio 
+### Demo 
+
+
+
+## Autores![Blue and Purple Casual Corporate App Development Startup Marketing Presentation](https://user-images.githubusercontent.com/108665291/207161452-89a5c219-4520-46f9-a2a3-fe9f2f81fbcc.png)
 
