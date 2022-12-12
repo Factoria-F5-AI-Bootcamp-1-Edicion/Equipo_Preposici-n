@@ -34,16 +34,16 @@ async def get_list_predicted_comments(model_classifier: ModelClassifier):
         X_valid = df['comment_text']
         # Carga el modelo
         pipeline = joblib.load(model_classifier)
-        #print(pipeline)
+
         # Predictions (via hate Speech classifier)
         y_predict = pipeline.predict(X_valid)
-        unique_list = list(set(y_predict))
+        #unique_list = list(set(y_predict))
         #print(unique_list)
         df['label'] = y_predict
         series = df['label'].value_counts()
-        #print(series)
+
         router.num_pred = series[1].astype(dtype=int)
-        #print(router.num_pred)
+
         df.to_csv('predictions/prediction_' + model_classifier + '', index=False)
         result = df.to_dict()
     except:
@@ -73,23 +73,7 @@ async def get_predictions_count():
     status_code=200
 )
 async def is_hateSpeech(model_classifier: ModelClassifier, new_text: str):
-
-    '''    
-    corpus = []
-    corpus = data_tokens(new_text)
-
-    print(corpus)
-    # Loading BoW dictionary
-    cvFile='BoW_HateSpeech_Model.pkl'
-    # cv = CountVectorizer(decode_error="replace", vocabulary=pickle.load(open('./drive/MyDrive/Colab Notebooks/2 Sentiment Analysis (Basic)/3.1 BoW_Sentiment Model.pkl', "rb")))
-    tfidf = pickle.load(open(cvFile, "rb"))
-
-    print("Hola")
-    print(tfidf.get_feature_names_out())
-    X_fresh = tfidf.transform(corpus).toarray()
-    print(X_fresh)
-    '''
-
+    
     columns = ['Text']
     df = pd.DataFrame([new_text], columns = columns)
     #print(df['Text'])
