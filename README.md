@@ -13,7 +13,7 @@ Nuestra misión es desarrollar soluciones utilizando algoritmos de IA y Machine 
 API LAB ML es la plataforma que elegimos para vizualzar las soluciones que ofrecemos a nuestros clientes.
 Utilizamos el Framework de [Tiangolo's FastAPI](https://fastapi.tiangolo.com/), el cual conecta los algoritmos de ML que desarrollamos.
 
-# :grey_exclamation:Estado del proyecto
+# :mechanical_arm:Estado del proyecto
 :construction: Proyecto en construcción :construction:
 
 *Siempre intentamos innovar y mejorar nuestros algoritmos !*
@@ -53,7 +53,7 @@ uvicorn app.main:app
 
 ## Autores![equipo](https://user-images.githubusercontent.com/108665291/207284142-daa21e46-24a1-4c1a-b799-57114fccd1db.png)
 
-## 	mailbox :mailbox:Contacta con nosotros:
+## :mailbox:Contacta con nosotros:
 - Discord:https://discord.gg/7pDFqxpR
 - Email: hello@labml_madrid.com
 
