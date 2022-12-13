@@ -13,17 +13,49 @@ Nuestra misión es desarrollar soluciones utilizando algoritmos de IA y Machine 
 API LAB ML es la plataforma que elegimos para vizualzar las soluciones que ofrecemos a nuestros clientes.
 Utilizamos el Framework de [Tiangolo's FastAPI](https://fastapi.tiangolo.com/), el cual conecta los algoritmos de ML que desarrollamos.
 
-# Estado del proyecto
+# :grey_exclamation:Estado del proyecto
 :construction: Proyecto en construcción :construction:
-Siempre intentamos innovar y mejorar nuestros algoritmos !
+
+*Siempre intentamos innovar y mejorar nuestros algoritmos !*
+![imagen](https://user-images.githubusercontent.com/108665291/207285962-ecf1c7d2-676b-46c1-977f-79020e29513e.png)
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Funcionalidad 1`:nuestro algoritmo detecta mensaje de odio en los comentarios de los videos en Youtube 
-- `Funcionalidad 2`:detecta cualquier mensaje de odio 
-### Demo 
+- `Funcionalidad 1`: nuestro algoritmo detecta mensaje de odio en los comentarios de los videos en Youtube 
+- `Funcionalidad 2`: detecta cualquier mensaje de odio 
+- `Funcionalidad 3`: scrapping en desarrollo para recolectar datos para clasificarlos en tiempo real 
+
+## 📁 Acceso al proyecto
+
+*Descarga el contenido del repositorio* >> https://github.com/Factoria-F5-AI-Bootcamp-1-Edicion/Equipo_Preposicion.git 
+
+## 🛠️ Abre y ejecuta el proyecto
+
+1. Crea un entorno específicamente para este proyecto. Por ejemplo con conda 
+```
+conda create -n nombreEntorno
+```
+2. Dentro de este entorno será necesario instalar todas las librerias usadas, lo puedes hacer desde archivo :
+```
+requirements.txt
+```
+3. Desde la terminal, situate en la carpeta que contiene los archivos de la API y desde allí ejecute
+```
+uvicorn app.main:app
+```
+
+# :wrench: Tecnologías usadas:
+
+   - **Metodología Scrum:** Jira (https://castanedarebeca.atlassian.net/jira/software/projects/NLP/boards/3/roadmap)
+   - **Desarrollo:** Git y GitHub, Jupyterlab, FastApi, Scikit-learn( CountVectorizer y Tfidfvectorizer), FastApi, Spacy/NLTK, Pandas, Numpy, WordCloud,      Pipeline.
+   - **Presentación:** Canva (https://www.canva.com/design/DAFUQ9AnMtU/rv2CXEFWr4sXl9UqcaensA/view?utm_content=DAFUQ9AnMtU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 
 
+## Autores![equipo](https://user-images.githubusercontent.com/108665291/207284142-daa21e46-24a1-4c1a-b799-57114fccd1db.png)
 
-## Autores![Blue and Purple Casual Corporate App Development Startup Marketing Presentation](https://user-images.githubusercontent.com/108665291/207161452-89a5c219-4520-46f9-a2a3-fe9f2f81fbcc.png)
+## 	mailbox :mailbox:Contacta con nosotros:
+- Discord:https://discord.gg/7pDFqxpR
+- Email: hello@labml_madrid.com
+
+
 
